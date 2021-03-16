@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
     return(
         <div>
             <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="employee pic"/>
