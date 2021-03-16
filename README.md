@@ -13,3 +13,9 @@
 ## Screenshots
 
 ## Questions
+
+For any questions, please contact me at:
+
+**Email:** calebhopkins@outlook.com
+
+**GitHub Profile:** [CalebTheCreative]("https://github.com/CalebTheCreative")
