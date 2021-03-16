@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+    justify-content: center;
+    display:block;
+    max-width: 100vw;
+}
+  
+.form {
+    padding: 5px;
+}
