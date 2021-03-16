@@ -12,7 +12,7 @@ import Card from "./components/Card";
 // ==================================
 function App() {
   return (
-    <div>
+    <div className="container-fluid">
       <Jumbotron />
       <SearchContainer />
       <Card/>
