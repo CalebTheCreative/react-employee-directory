@@ -1,19 +1,17 @@
+// ==================================
+// Dependencies
+// ==================================
+import React from "react";
+import './App.css';
+import Jumbotron from "./components/Jumbotron";
+
+// ==================================
+// App
+// ==================================
 function App() {
   return (
-    <div className="container">
-      <header>
-        <p>
-          Testing
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Jumbotron />
     </div>
   );
 }
