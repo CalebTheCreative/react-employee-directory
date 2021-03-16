@@ -5,6 +5,7 @@ import React from "react";
 import './App.css';
 import Jumbotron from "./components/Jumbotron";
 import SearchContainer from "./components/SearchContainer";
+import Card from "./components/Card";
 
 // ==================================
 // App
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Jumbotron />
       <SearchContainer />
+      <Card/>
     </div>
   );
 }
