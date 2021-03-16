@@ -3,11 +3,11 @@ import React from "react";
 function Card(props) {
     return(
         <div>
-            <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="employee pic"/>
-            <p>Chip Bunner</p>
-            <p>United States</p>
-            <p>chipbunner@mail.com</p>
-            <p>444-444-4444</p>
+            <img src={props.picture.thumbnail} alt="Employee"/>
+            <p>{props.name}</p>
+            <p>{props.country}</p>
+            <p>{props.email}</p>
+            <p>{props.phone}</p>
         </div>
     );
 };
