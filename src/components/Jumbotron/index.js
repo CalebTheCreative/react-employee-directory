@@ -2,11 +2,11 @@ import React from "react";
 
 function Jumbotron() {
     return(
-
         <div className="jumbotron">
-            Employee Directory
+            <div className="container">
+                <h1 className="display-4 text-center">Employee Directory</h1>
+            </div>
         </div>
-
     );
 };
 
