@@ -2,13 +2,14 @@ import React from "react";
 
 function Card(props) {
     return(
-        <div>
-            <img src={props.picture.thumbnail} alt="Employee"/>
-            <p>{props.name}</p>
-            <p>{props.country}</p>
-            <p>{props.email}</p>
-            <p>{props.phone}</p>
-        </div>
+        <tr>
+            <th><img src={props.picture} alt={props.firstName}/></th>
+            <td>{props.firstName}</td>
+            <td>{props.lastName}</td>
+            <td>{props.country}</td>
+            <td>{props.email}</td>
+            <td>{props.phone}</td>
+        </tr>
     );
 };
 
