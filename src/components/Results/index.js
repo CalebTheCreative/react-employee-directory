@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import Card from "../Card";
 import SearchContainer from "../SearchContainer";
+import "./style.css";
 
 class Results extends Component {
     state = {
@@ -126,7 +127,7 @@ class Results extends Component {
                             <tr>
                                 <th scope="col">Photo</th>
                                 <th scope="col">First Name</th>
-                                <th scope="col" onClick={this.handleSortLast}>Last Name</th>
+                                <th scope="col" onClick={this.handleSortLast} className="lastName"><u>Last Name</u></th>
                                 <th scope="col">Country</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Phone</th>
