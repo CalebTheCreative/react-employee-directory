@@ -4,13 +4,17 @@ function SearchContainer(props) {
     return (
         <form>
             <div className="form-group">
-                <label htmlFor="employeename">Employee Name: </label>
+                <label htmlFor="searchRes">Employee Name:<span> </span></label>
                 <input
-                    value={props.search}
+                    value={props.searchRes}
+                    className="form-control"
                     onChange={props.handleInputChange}
                     type="text"
-                    placeholder="Search Employee"
+                    placeholder="Enter Name"
+                    name="searchRes"
+                    id="searchRes"
                 />
+                <button className="btn" onClick={props.handleFormSubmit}>Submit</button>
             </div>
         </form>
     )
