@@ -1,5 +1,11 @@
+// ==================================
+// Dependencies
+// ==================================
 import React from "react";
 
+// ==================================
+// Jumbotron Component
+// ==================================
 function Jumbotron() {
     return(
         <div className="jumbotron">

@@ -1,9 +1,16 @@
+// ==================================
+// Dependencies
+// ==================================
+
 import React, { Component } from "react";
 import API from "../../utils/API";
 import Card from "../Card";
 import SearchContainer from "../SearchContainer";
 import "./style.css";
 
+// ==================================
+// Results Component
+// ==================================
 class Results extends Component {
     state = {
         result: [],

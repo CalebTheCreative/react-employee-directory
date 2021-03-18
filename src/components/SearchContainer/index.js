@@ -1,5 +1,12 @@
+// ==================================
+// Dependencies
+// ==================================
+
 import React from "react";
 
+// ==================================
+// Search Container Component
+// ==================================
 function SearchContainer(props) {
     return (
         <form>
